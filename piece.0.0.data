@@ -1,0 +1,54 @@
+100 -- nombre maximal de points
+100 -- nombre maximal de segments
+100 -- nombre maximal de sous-domaines
+
+-- points
+A -90 -15     
+B 90 -15       
+C 90 15        
+D -90 15
+E -60 -15
+F 60 -15
+G 30 15
+H -30 15
+;
+
+-- points imposes
+;
+
+-- segments
+AE NULL A E NULL ;
+EF NULL E F NULL ;
+FB NULL F B NULL ;
+BC NULL B C NULL ;
+CG NULL C G NULL ;
+GH NULL G H NULL ;
+HD NULL H D NULL ;
+DA NULL D A NULL ;
+;
+
+-- references physiques de certains points imposes ou extremites   
+E 20   
+F 30   
+G 40   
+H 50
+;
+
+-- references physiques de certains segments
+;
+
+-- sous-domaines
+AE +1 200 
+;
+
+-- carte de h ou de metriques
+isotrope
+A 15
+B 15
+C 15
+D 15
+E 15
+F 15
+G 15
+H 15
+;
