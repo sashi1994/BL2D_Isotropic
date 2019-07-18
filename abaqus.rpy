@@ -2,7 +2,7 @@
 #
 # Abaqus/CAE Release 2016 replay file
 # Internal Version: 2015_09_24-22.31.09 126547
-# Run by maduguls on Fri Jun 21 17:02:34 2019
+# Run by maduguls on Mon Jul 15 16:54:49 2019
 #
 
 # from driverUtils import executeOnCaeGraphicsStartup
@@ -15,13 +15,13 @@ session.Viewport(name='Viewport: 1', origin=(1.11979, 1.12269), width=164.833,
 session.viewports['Viewport: 1'].makeCurrent()
 from driverUtils import executeOnCaeStartup
 executeOnCaeStartup()
-execfile('Macro_Extract_U_S_shell.py', __main__.__dict__)
+execfile('Macro_Extract_U_S.py', __main__.__dict__)
 #: Model: C:/Users/maduguls/Documents/Sashi_Kiran/BL2D/Code_Isotropic/auto_inp.odb
 #: Number of Assemblies:         1
 #: Number of Assembly instances: 0
 #: Number of Part instances:     1
 #: Number of Meshes:             1
-#: Number of Element Sets:       2
+#: Number of Element Sets:       3
 #: Number of Node Sets:          5
 #: Number of Steps:              1
 print 'RT script done'

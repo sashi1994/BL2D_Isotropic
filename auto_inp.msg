@@ -1,6 +1,6 @@
 1
 
-   Abaqus 3DEXPERIENCE R2016x                                  Date 21-Jun-2019   Time 17:02:27
+   Abaqus 3DEXPERIENCE R2016x                                  Date 15-Jul-2019   Time 16:54:27
    For use at UNIVERSITE DE TECHNOLOGIE DE TROYES under license from Dassault Systemes or its subsidiary.
 
                                                                                  
@@ -24,7 +24,7 @@
 
      EXTRAPOLATION WILL NOT BE USED
 
-     CHARACTERISTIC ELEMENT LENGTH      3.28    
+     CHARACTERISTIC ELEMENT LENGTH      2.26    
 
      DETAILS REGARDING ACTUAL SOLUTION WAVEFRONT REQUESTED
 
@@ -39,14 +39,14 @@
 
   INCREMENT     1 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  2.220E-16
 
-  NUMBER OF EQUATIONS =       984     NUMBER OF FLOATING PT. OPERATIONS =  6.79E+05
+  NUMBER OF EQUATIONS =      3168     NUMBER OF FLOATING PT. OPERATIONS =  1.11E+07
 
      CHECK POINT   START OF SOLVER    
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =   0.0000    
-       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
        ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
@@ -71,7 +71,7 @@
                        1  REORDERING OF EQUATIONS TO MINIMIZE WAVEFRONT
                        0  ADDITIONAL RESIDUAL EVALUATIONS FOR LINE SEARCHES
                        0  ADDITIONAL OPERATOR EVALUATIONS FOR LINE SEARCHES
-                       0  WARNING MESSAGES DURING USER INPUT PROCESSING
+                       1  WARNING MESSAGES DURING USER INPUT PROCESSING
                        0  WARNING MESSAGES DURING ANALYSIS
                        0  ANALYSIS WARNINGS ARE NUMERICAL PROBLEM MESSAGES
                        0  ANALYSIS WARNINGS ARE NEGATIVE EIGENVALUE MESSAGES
@@ -80,7 +80,7 @@
 
 
      JOB TIME SUMMARY
-       USER TIME (SEC)      =  0.10000    
-       SYSTEM TIME (SEC)    =  0.10000    
-       TOTAL CPU TIME (SEC) =  0.20000    
-       WALLCLOCK TIME (SEC) =          1
+       USER TIME (SEC)      =   3.5000    
+       SYSTEM TIME (SEC)    =  0.30000    
+       TOTAL CPU TIME (SEC) =   3.8000    
+       WALLCLOCK TIME (SEC) =          5
